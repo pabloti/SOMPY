@@ -114,7 +114,7 @@ class View2DPacked(MapView):
     def _set_axis(self, ax, msz0, msz1):
         plt.axis([0, msz0, 0, msz1])
         plt.axis('off')
-        ax.axis('off')
+        #ax.axis('off')
 
     def show(self, som, what='codebook', which_dim='all', cmap=None,
              col_sz=None):
